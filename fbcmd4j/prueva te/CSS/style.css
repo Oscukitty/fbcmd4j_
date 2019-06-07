@@ -1,0 +1,167 @@
+@keyframes Superspace{
+	0% {border-color: lime;}
+	25% {border-color: yellow;}
+	50% {border-color: red;}
+	75% {border-color: deepskyblue;}
+	100% {border-color: lime;}
+}
+
+@keyframes Superspace2{
+	0% {background-color: lime;}
+	25% {background-color: yellow;}
+	50% {background-color: red;}
+	75% {background-color: deepskyblue;}
+	100% {background-color: lime;}
+}
+
+@keyframes Superspace-Text{
+	0% {color: lime;}
+	25% {color: gold;}
+	50% {color: lightred;}
+	75% {color: deepskyblue;}
+	100% {color: lime;}
+} 
+
+@keyframes tealer{
+	0% {color: teal;}
+	33% {color: deepskyblue;}
+	66% {color: aliceblue;}
+	100% {color: teal}
+}
+
+
+@keyframes goldentext{
+	0% {color: gold;}
+	33% {color: goldenrod;}
+	66% {color: yellow;}
+	100% {color: gold}
+}
+
+@keyframes MainBack{
+	0% {background-color: blue;}
+	25% {background-color: darkblue;}
+	50% {background-color: blue;}
+	75% {background-color: deepskyblue;}
+	100% {background-color: blue;}
+}
+	
+@keyframes MainStart{
+	0% {
+		width: 2040px;
+		opacity: 0%;
+	}
+	100% {
+		width: 500px;
+		opacity: 100%;
+	}
+}
+
+body {
+	background-image: url("Light-Wallpaper-HD-Background2.jpg");
+	background-size: cover;
+}
+
+#Main_Heading {
+	color: deepskyblue;
+	font-family: "Segoe UI";
+	text-align: center;
+	font-weight: lighter;
+	border: 2px solid aliceblue;
+	border-radius: 10px;
+	text-shadow: rgb(0, 0, 0)5px 5px 7px;
+	width: 500px;
+	border-right-width: 25px;
+	border-left-width: 25px;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	transition: all 0.5s ease;
+	margin: 0 auto;
+	animation: MainBack 3s linear infinite;
+}
+
+#Main_Heading:hover {
+	color: yellow;
+	width: 95%;
+	font-size: 45px;
+}
+
+a,
+h2 {
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 18px;
+	font-weight: lighter;
+	width: 300px;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+h2 {
+	border: 5px solid lime;
+	border-radius: 10px;
+	text-align: center;
+	border-right-width: 15px;
+	border-left-width: 15px;
+}
+
+a:hover {
+	font-size: 23px;
+	padding: 0px 20px;
+	font-weight: bold;
+	color: lime;
+	margin: 0px 20px;
+	border: 3px solid lime;
+	border-radius: 3px;
+	width: 100px;
+}
+
+.Education_list {
+	animation: tealer 2s linear infinite;
+}
+
+.DevTools {
+	animation: Superspace-Text 3s linear infinite;
+}
+
+#School {
+	animation: tealer 2s linear infinite;
+}
+
+#School:hover {
+	color: cornflowerblue;
+	width: 95%;
+	font-size: 25px;
+	background-color: #303030;
+}
+
+#Entertainment:hover {
+	color: yellow;
+	width: 95%;
+	font-size: 25px;
+	background-color: darkgoldenrod;
+}
+
+#DevMode {
+	animation: Superspace 3s linear infinite, Superspace2 3s linear infinite;
+	color: black;
+}
+
+#DevMode:hover {
+	width: 95%;
+	font-size: 25px;
+}
+
+.Special,
+#Entertainment {
+	animation: goldentext 3s linear infinite;
+}
+
+small {
+	font-family: "Segoe UI";
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	text-align: moz-center;
+}
